@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DFD4D40440BDE3FE4E4F94 /* libPods-PINRemoteTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1E330A721EFF48E0856F03 /* libPods-PINRemoteTest.a */; };
 		F217EBF91BBBF431000A57F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F217EBF81BBBF431000A57F9 /* main.m */; };
 		F217EBFC1BBBF431000A57F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F217EBFB1BBBF431000A57F9 /* AppDelegate.m */; };
 		F217EBFF1BBBF431000A57F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F217EBFE1BBBF431000A57F9 /* ViewController.m */; };
 		F217EC021BBBF431000A57F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F217EC001BBBF431000A57F9 /* Main.storyboard */; };
 		F217EC041BBBF431000A57F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F217EC031BBBF431000A57F9 /* Assets.xcassets */; };
 		F217EC071BBBF431000A57F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F217EC051BBBF431000A57F9 /* LaunchScreen.storyboard */; };
+		F217EC121BBBF91B000A57F9 /* PINTestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F217EC111BBBF91B000A57F9 /* PINTestCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		F2468B211BBBFEA80003A008 /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = F2468B201BBBFEA80003A008 /* images.json */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00146049F39B123154B1C4A /* Pods-PINRemoteTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINRemoteTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PINRemoteTest/Pods-PINRemoteTest.release.xcconfig"; sourceTree = "<group>"; };
+		BFD49DA0E26C90064385E4B7 /* Pods-PINRemoteTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINRemoteTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PINRemoteTest/Pods-PINRemoteTest.debug.xcconfig"; sourceTree = "<group>"; };
 		F217EBF41BBBF431000A57F9 /* PINRemoteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINRemoteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F217EBF81BBBF431000A57F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F217EBFA1BBBF431000A57F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		F217EC031BBBF431000A57F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F217EC061BBBF431000A57F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F217EC081BBBF431000A57F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F217EC101BBBF91B000A57F9 /* PINTestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINTestCollectionViewCell.h; sourceTree = "<group>"; };
+		F217EC111BBBF91B000A57F9 /* PINTestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINTestCollectionViewCell.m; sourceTree = "<group>"; };
+		F2468B201BBBFEA80003A008 /* images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
+		FF1E330A721EFF48E0856F03 /* libPods-PINRemoteTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PINRemoteTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DFD4D40440BDE3FE4E4F94 /* libPods-PINRemoteTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271BD5286563928D2F5CF8CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFD49DA0E26C90064385E4B7 /* Pods-PINRemoteTest.debug.xcconfig */,
+				B00146049F39B123154B1C4A /* Pods-PINRemoteTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		297C557C9367185DC81118B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E330A721EFF48E0856F03 /* libPods-PINRemoteTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F217EBEB1BBBF431000A57F9 = {
 			isa = PBXGroup;
 			children = (
 				F217EBF61BBBF431000A57F9 /* PINRemoteTest */,
 				F217EBF51BBBF431000A57F9 /* Products */,
+				271BD5286563928D2F5CF8CD /* Pods */,
+				297C557C9367185DC81118B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +96,9 @@
 				F217EC051BBBF431000A57F9 /* LaunchScreen.storyboard */,
 				F217EC081BBBF431000A57F9 /* Info.plist */,
 				F217EBF71BBBF431000A57F9 /* Supporting Files */,
+				F217EC101BBBF91B000A57F9 /* PINTestCollectionViewCell.h */,
+				F217EC111BBBF91B000A57F9 /* PINTestCollectionViewCell.m */,
+				F2468B201BBBFEA80003A008 /* images.json */,
 			);
 			path = PINRemoteTest;
 			sourceTree = "<group>";
@@ -86,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F217EC0B1BBBF431000A57F9 /* Build configuration list for PBXNativeTarget "PINRemoteTest" */;
 			buildPhases = (
+				A02CF0925FD341DEB9A861D1 /* Check Pods Manifest.lock */,
 				F217EBF01BBBF431000A57F9 /* Sources */,
 				F217EBF11BBBF431000A57F9 /* Frameworks */,
 				F217EBF21BBBF431000A57F9 /* Resources */,
+				C48F121C0ED3BE024BD3C3C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +144,7 @@
 				TargetAttributes = {
 					F217EBF31BBBF431000A57F9 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = X5G3CWBYM3;
 					};
 				};
 			};
@@ -137,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F217EC071BBBF431000A57F9 /* LaunchScreen.storyboard in Resources */,
+				F2468B211BBBFEA80003A008 /* images.json in Resources */,
 				F217EC041BBBF431000A57F9 /* Assets.xcassets in Resources */,
 				F217EC021BBBF431000A57F9 /* Main.storyboard in Resources */,
 			);
@@ -144,11 +180,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A02CF0925FD341DEB9A861D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C48F121C0ED3BE024BD3C3C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PINRemoteTest/Pods-PINRemoteTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F217EBF01BBBF431000A57F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F217EC121BBBF91B000A57F9 /* PINTestCollectionViewCell.m in Sources */,
 				F217EBFF1BBBF431000A57F9 /* ViewController.m in Sources */,
 				F217EBFC1BBBF431000A57F9 /* AppDelegate.m in Sources */,
 				F217EBF91BBBF431000A57F9 /* main.m in Sources */,
@@ -213,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -261,23 +331,31 @@
 		};
 		F217EC0C1BBBF431000A57F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD49DA0E26C90064385E4B7 /* Pods-PINRemoteTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PINRemoteTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kerrmarin.PINRemoteTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		F217EC0D1BBBF431000A57F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00146049F39B123154B1C4A /* Pods-PINRemoteTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PINRemoteTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kerrmarin.PINRemoteTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +378,7 @@
 				F217EC0D1BBBF431000A57F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

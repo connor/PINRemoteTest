@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PINRemoteTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1B41A364B82D6BD29AB858A90C293B89</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20059AEE87B7CC1B73840EFF7DA644C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54454A8B392B327E4714FAE44AB65694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B9395C6C2D83B3DEFFD10CBD1FB2C86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

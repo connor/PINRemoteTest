@@ -1,0 +1,16 @@
+PODS:
+  - FLAnimatedImage (1.0.8)
+  - PINCache (2.1)
+  - PINRemoteImage (1.2):
+    - FLAnimatedImage (>= 1.0)
+    - PINCache (>= 2.1)
+
+DEPENDENCIES:
+  - PINRemoteImage
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
+  PINCache: 0581b0a7578fc0bbc6c7a8b70b0615388bea064c
+  PINRemoteImage: 6951a2bfa2e35196906b10bc9febb5d75a64f062
+
+COCOAPODS: 0.38.2
